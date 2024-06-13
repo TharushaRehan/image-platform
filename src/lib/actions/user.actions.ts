@@ -91,5 +91,3 @@ export async function updateCredits(userId: string, creditFee: number) {
     handleError(error);
   }
 }
-
-// 1.22
