@@ -171,9 +171,9 @@ const TransformationForm = ({
           [fieldName === "prompt" ? "prompt" : "to"]: value,
         },
       }));
+    }, 1000)();
 
-      return onChageField(value);
-    }, 1000);
+    return onChageField(value);
   };
 
   const onTransformHandler = async () => {

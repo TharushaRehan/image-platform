@@ -59,5 +59,3 @@ export const DeleteConfirmation = ({ imageId }: { imageId: string }) => {
     </AlertDialog>
   );
 };
-
-//4.06
